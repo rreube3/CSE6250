@@ -3,7 +3,7 @@ import gzip
 import shutil
 import os
 
-path="../data"
+path="/data"
 os.chdir(path)
 
 import gzip
