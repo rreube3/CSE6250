@@ -17,9 +17,9 @@ Dependencies:
   - spacy
  
 Download:
-  - All data, feature creation, and model training/evaluation scripts can be downloaded from our team's GitHub at [INSERT GITHUB URL], note some of these files were not created by our team and have been included for grader convenience.
+  - Graders will need to navigate to https://github.com/commonsense/conceptnet-numberbatch and download numberbatch-en-19.08.txt.gz (English-only), from there graders will need to unzip the file and save it as "numberbatch-en.txt" in the data folder
+  - All other data, feature creation, and model training/evaluation scripts can be downloaded from our team's GitHub at [INSERT GITHUB URL], note some of these files were not created by our team and have been included for grader convenience.
   - Our project team gathered the following files from external data sources and included them in our GitHub:
-    - numberbatch-en.txt from https://github.com/commonsense/conceptnet-numberbatch
     - 500_Reddit_users_posts_labels.csv from https://github.com/jpsain/Suicide-Severity/tree/master/Data
     - labMT from https://rdrr.io/cran/qdapDictionaries/man/labMT.html
     - AFINN-en-165.txt from https://github.com/fnielsen/afinn/tree/master/afinn/data
@@ -33,6 +33,7 @@ Functionality:
   - read_oe_w2v_file_test_vectorize_data.ipynb - converting conceptnet txt.gz file to txt (the txt file is provided for graders)
 
 Instructions to Run Code:
+IMPORTANT: Please ensure you have downloaded and unzipped the the conceptnet file (see Download section) before starting
   1. Download code scripts and data files from the GitHub page at [INSERT GITHUB URL]
   2. [Optional] Open and run Create_External_Features.py to create the supplemental external features dataset OR do not run the script and use the provided external features csv file
   3. Open and run the 3+1-Label_Classification.py script to preprocess, train, and evaluate CNN and SVM-Linear model performance on the 3+1-label classification scheme. This script trains the model using the 500-user dataset and supplemental external feature dataset (I2)
