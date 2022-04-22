@@ -37,7 +37,7 @@ Instructions to Run Code:
   1. Download code scripts and data files from the GitHub page at [INSERT GITHUB URL]
   2. Download numberbatch-en-19.08.txt.gz (English-only) from https://github.com/commonsense/conceptnet-numberbatch and save it in the "data" folder locally
   3. Run read_numberbatch.py to convert and rename numberbatch-en-19.08.txt.gz to numberbatch-en.txt (also saved in the "data" folder)
-  4. [Optional] Open and run Create_External_Features.py to create the supplemental external features dataset OR do not run the script and use the provided external features csv file
+  4. [Optional] Open and run Create_External_Features.py to create the supplemental external features dataset OR do not run the script and use the provided external features csv file saved in the "data" folder
   5. Open and run the 3+1-Label_Classification.py script to preprocess, train, and evaluate CNN and SVM-Linear model performance on the 3+1-label classification scheme This script trains the model using the 500-user dataset and supplemental external feature dataset (I2)
     a. [Optional] Run the script again with lines 330 and 337 commented out to test model performance without the supplemental external features (I1)
     b. For both 5 and 5.a above the scripts will print out cross-validated model performance metrics and save CNN model predictions in a tsv file
