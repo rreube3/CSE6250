@@ -260,9 +260,6 @@ if __name__ == '__main__':
     with open(op_file, 'w') as of:
 
         x_data, y_data = read_data(ip_txt_file)
-        print(y_data[0])
-        print(x_data.shape)
-        print(y_data.shape)
         ext_feature = read_external_features(ip_txt_file, ip_feat_file)
 
         cv_count = 0
