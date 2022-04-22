@@ -19,7 +19,7 @@ Dependencies:
  
 Download:
   - Graders will need to navigate to https://github.com/commonsense/conceptnet-numberbatch and download numberbatch-en-19.08.txt.gz (English-only). Graders should save the txt.gz file in the "data" folder and use the read_numberbatch.py script to convert and rename it to numberbatch-en.txt
-  - All other data, feature creation, and model training/evaluation scripts should be downloaded from our team's GitHub at [INSERT GITHUB URL], note some of these files were not created by our team and have been included for grader convenience
+  - All other data, feature creation, and model training/evaluation scripts should be downloaded from our team's GitHub at https://github.com/rreube3/CSE6250, note some of these files were not created by our team and have been included for grader convenience
   - Our project team gathered the following files from external data sources and included them in our GitHub:
     - 500_Reddit_users_posts_labels.csv from https://github.com/jpsain/Suicide-Severity/tree/master/Data
     - labMT from https://rdrr.io/cran/qdapDictionaries/man/labMT.html
@@ -35,7 +35,7 @@ Functionality:
   - read_oe_w2v_file_test_vectorize_data.ipynb - internal testing and data validation file
 
 Instructions to Run Code:
-  1. Download code scripts and data files from the GitHub page at [INSERT GITHUB URL]
+  1. Download code scripts and data files from the GitHub page at https://github.com/rreube3/CSE6250
   2. Download numberbatch-en-19.08.txt.gz (English-only) from https://github.com/commonsense/conceptnet-numberbatch and save it in the "data" folder locally
   3. Run read_numberbatch.py to convert and rename numberbatch-en-19.08.txt.gz to numberbatch-en.txt (also saved in the "data" folder)
   4. [Optional] Open and run Create_External_Features.py to create the supplemental external features dataset OR do not run the script and use the provided external features csv file saved in the "data" folder
