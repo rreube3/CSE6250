@@ -17,7 +17,7 @@ Dependencies:
   - spacy
  
 Download:
-  - Graders will need to navigate to https://github.com/commonsense/conceptnet-numberbatch and download numberbatch-en-19.08.txt.gz (English-only), from there graders will need to unzip the file and save it as "numberbatch-en.txt" in the data folder. Graders can use read_numberbatch.py to unzip the file.
+  - Graders will need to navigate to https://github.com/commonsense/conceptnet-numberbatch and download numberbatch-en-19.08.txt.gz (English-only), from there graders will need to save the file in the data folder, unzip the file, and save it as "numberbatch-en.txt" in the data folder. Graders can use the read_numberbatch.py script to unzip the file.
   - All other data, feature creation, and model training/evaluation scripts can be downloaded from our team's GitHub at [INSERT GITHUB URL], note some of these files were not created by our team and have been included for grader convenience.
   - Our project team gathered the following files from external data sources and included them in our GitHub:
     - 500_Reddit_users_posts_labels.csv from https://github.com/jpsain/Suicide-Severity/tree/master/Data
