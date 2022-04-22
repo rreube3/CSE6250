@@ -1,8 +1,5 @@
 ###unzip the file
-import gzip
-import shutil
 import os
-
 import gzip
 import shutil
 f_in=open
